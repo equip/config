@@ -27,5 +27,9 @@
         "psr-4": {
             "EquipTests\\": "tests/"
         }
+    },
+    "scripts": {
+        "bench": "phpbench run --report=aggregate --revs=100 --iterations=5",
+        "test": "phpunit"
     }
 }
